@@ -1,8 +1,7 @@
 # insight Vault project
 
 # Centralized Secrets Management (CSM)
-A Centralized and Dynamic secrets management system that seeks to replace the manual process of creating and managing sensivitive credentials by developers on the local computers, also to avoid the common issue of committing hard-coded credentials to public spaces which can have huge impact on the security of the organization.  aws secrets engine and identity authentication to provide role-based access with granular permission to generate new resource on cloud to developers in an organization.
-
+A Centralized and Dynamic secrets management system that seeks to replace the manual process of creating and managing sensitive credentials by developers on their local computers, also to avoid the common issue of committing hard-coded credentials to public spaces which can have a tremendous impact on the security of the organization. AWS secrets engine and identity authentication to provide role-based access with granular permission to generate new resource on the cloud to developers in an organization.
 
 ## CSM Architecture
 
@@ -10,7 +9,7 @@ A Centralized and Dynamic secrets management system that seeks to replace the ma
 
 ## Getting Started
 
-There are 2 different personals involved in this guide, the "Administrator" and the "Developer". 
+There are 2 different personnel involved in this guide, the "Administrator" and the "Developer". 
 
 **Administrator**
 
