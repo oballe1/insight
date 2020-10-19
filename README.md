@@ -1,9 +1,9 @@
 # Insight Vault project
 
-# Centralized Secrets Management (CSM)
+# DynAuth
 A Centralized and Dynamic secrets management system that seeks to replace the manual process of creating and managing sensitive credentials by developers on their local computers, also to avoid the common issue of committing hard-coded credentials to public spaces which can have a tremendous impact on the security of the organization. AWS secrets engine and identity authentication to provide role-based access with granular permission to generate new resource on the cloud to developers in an organization.
 
-## CSM Architecture
+## DynAuth Architecture
 
 
 
@@ -13,7 +13,7 @@ There are 2 different personnel involved in this guide, the "Administrator" and 
 
 **Administrator**
 
-The "Administrator" is the operator responsible for launching, configuring, and managing Vault using Terraform. They configure [AWS Secrets Engine](https://www.vaultproject.io/docs/secrets/aws/index.html) in Vault and defining the policy scope for the AWS credentials dynamically generated. They generate new user in system with their varying capacity of usage.
+The "Administrator" is the operator responsible for launching, configuring, and managing Vault using Terraform and CLI. They configure [AWS Secrets Engine](https://www.vaultproject.io/docs/secrets/aws/index.html) in Vault and defining the policy scope for the AWS credentials dynamically generated. They generate new user in system with their varying capacity of usage.
 
 The "Administrator" is generally concerned about managing the static and long lived AWS IAM credentials with varying scope required for developers to provision infrastructure in AWS.
 
@@ -32,7 +32,6 @@ Things to follow as developer:
 
 ## Built With
 
-* Packer - Used to build AMIs on AWS
 * Terraform - Used to provision the infrastructure
 * Vault - Secrets & identity management
 
