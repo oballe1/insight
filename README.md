@@ -4,39 +4,8 @@
 A Centralized and Dynamic secrets management system that seeks to replace the manual process of creating and managing sensitive credentials by developers on their local computers, also to avoid the common issue of committing hard-coded credentials to public spaces which can have a tremendous impact on the security of the organization. AWS secrets engine and identity authentication to provide role-based access with granular permission to generate new resource on the cloud to developers in an organization.
 
 ## DynAuth Architectur
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ ![sys_diagram](../snapshots/piv.png)
 
 ## Getting Started
 
@@ -50,7 +19,7 @@ The "Administrator" is generally concerned about managing the static and long li
 
 Things to follow as administrator:
 
-![developer_token](../snapshots/login_using_token.png)
+
 
 * Vault_cluster folder - for deployment of cluster and managing it. (Follow Readme under the folder)
 * admin_workspace - for managing the admin workspace. (Follow Readme under the folder)
