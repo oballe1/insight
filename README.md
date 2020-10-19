@@ -9,26 +9,25 @@ A Centralized and Dynamic secrets management system that seeks to replace the ma
 
 ## Getting Started
 
-There are 2 different personnel involved in this guide, the "Administrator" and the "Developer". 
+There are 2 different personnel involved in this guide, the "Administrator" and the "Database client". 
 
 **Administrator**
 
 The "Administrator" is the operator responsible for launching, configuring, and managing Vault using Terraform and CLI. They configure [AWS Secrets Engine](https://www.vaultproject.io/docs/secrets/aws/index.html) in Vault and defining the policy scope for the AWS credentials dynamically generated. They generate new user in system with their varying capacity of usage.
 
-The "Administrator" is generally concerned about managing the static and long lived AWS IAM credentials with varying scope required for developers to provision infrastructure in AWS.
+The "Administrator" is generally concerned about managing the static and long lived AWS IAM credentials with varying scope required for developers, database clients and other applications to safely interact with AWS.
 
 Things to follow as administrator:
 
 * Vault_cluster folder - for deployment of cluster and managing it. (Follow Readme under the folder)
 * admin_workspace - for managing the admin workspace. (Follow Readme under the folder)
 
-**Developer**
+**Database client**
 
-The "Developer" is the developer looking to safely provision infrastructure using Terraform without having to worry about managing sensitive AWS credentials locally.
+The "Database client" is looking forward to safely gaining access to the database residing in AWS without having to worry about managing sensitive AWS credentials locally.
 
-Things to follow as developer:
-
-* Developer-workspace - for developer usage (Follow Readme under the folder)
+Things to do as database client
+* Database client-workspace - for database client usage (Follow Readme under the folder)
 
 ## Built With
 
