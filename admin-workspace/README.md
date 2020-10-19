@@ -8,7 +8,7 @@ The "Admin" is generally concerned about managing the static and long lived AWS 
 
 | Name                          | Description                                    | Type     | Required |
 | ----------------------------- | ---------------------------------------------- | -------- | -------- |
-| VAULT_ADDR                    | vaul address                                   | `string` | yes      |
+| VAULT_ADDR                    | vault address                                   | `string` | yes      |
 | VAULT_TOKEN                   | Vault root token                               | `string` | yes      |
 | userpass_default_lease_ttl    | Userpass auth default lease ttl                | `string` | no       |
 | userpass_max_lease_ttl        | Userpass auth max lease ttl                    | `string` | no       |
