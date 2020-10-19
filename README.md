@@ -21,6 +21,8 @@ The "Administrator" is generally concerned about managing the static and long li
 
 Things to follow as administrator:
 
+![developer_token](../snapshots/login_using_token.png)
+
 * Vault_cluster folder - for deployment of cluster and managing it. (Follow Readme under the folder)
 * admin_workspace - for managing the admin workspace. (Follow Readme under the folder)
 
