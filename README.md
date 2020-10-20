@@ -5,7 +5,7 @@ A Centralized and Dynamic secrets management system that seeks to replace the ma
 
 ## DynAuth Architectur
  
- ![sys_diagram](../snapshots/piv_diag.png)
+![sys_diagram](../snapshots/piv_diag.png)
 
 ## Getting Started
 
